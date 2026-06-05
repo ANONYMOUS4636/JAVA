@@ -2,10 +2,11 @@ package array;
 
 public class reverseArray {
     static void main() {
-        int[] arr={6,10,2,9,3,8,7,16};
+        String str="i have a flower";
+        char[] arr= str.toCharArray();
         int i=0;
-        int j=3;
-        int  temp;
+        int j=arr.length-1;
+        char  temp;
         while(i<j){
 
 
@@ -18,7 +19,7 @@ public class reverseArray {
         }
 
         for(i=0;i<arr.length;i++){
-            System.out.print(arr[i]+" ");
+            System.out.print(arr[i]);
         }
     }
 }
